@@ -15,7 +15,34 @@ STATIC WEBSITE HOSTING  With S3 , IAM Policies , CDN - Cloudfront.
 5) Bucket Versioning -  Disable
 6) Default Encryption - Disable
 
-# Project Starter Code  - Consists of Website
+# Bucket Permissions
+
+Bucker Policy 
+
+{
+  "Version":"2012-10-17",
+  "Statement":[
+    {
+      "Sid":"AddPerm",
+      "Effect":"Allow",
+      "Principal": "*",
+      "Action":["s3:GetObject"],
+      "Resource":["arn:aws:s3:::your-website/*"]
+    }
+  ]
+}
+
+Granting access for Pulbic access through Bucket Policy.
+
+# Configuring S3 Bucket
+
+Properties -> Static Website Hosting -> Enable.
+
+# CDN - CLoudfront
+
+Distributed S3 Bucket via CloudFront.
+
+Url - > https://d2ytl54sq0i9y9.cloudfront.net/index.html
 
 
 
