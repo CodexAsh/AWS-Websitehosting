@@ -15,3 +15,7 @@ STATIC WEBSITE HOSTING  With S3 , IAM Policies , CDN - Cloudfront.
 5) Bucket Versioning -  Disable
 6) Default Encryption - Disable
 
+# Project Starter Code  - Consists of Website
+
+
+
